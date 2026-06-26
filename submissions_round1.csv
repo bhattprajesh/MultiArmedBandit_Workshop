@@ -1,0 +1,7 @@
+timestamp,name,strategy,details,steps,seed_env,seed_agent,total_reward
+2026-06-26T17:34:15.950064,Prajesh_greedy_eps01,fixed,fixed_eps=0.1,2000,42,123,1862
+2026-06-26T17:34:15.958246,Prajesh_greedy_eps05,fixed,fixed_eps=0.05,2000,42,123,1925
+2026-06-26T17:34:15.967237,Prajesh_greedy_eps20,fixed,fixed_eps=0.2,2000,42,123,1800
+2026-06-26T17:34:15.974848,Prajesh_pure_exploit,fixed,fixed_eps=0.0,2000,42,123,1570
+2026-06-26T17:34:15.983596,Prajesh_decay_05_005,decay,decay_0.5->0.05,2000,42,123,1724
+2026-06-26T17:34:15.991692,Prajesh_decay_08_01,decay,decay_0.8->0.01,2000,42,123,1624

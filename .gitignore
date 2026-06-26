@@ -1,0 +1,74 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# .gitignore — Multi-Armed Bandit Workshop
+# Author : Prajesh Bhatt
+# Course : CSCN8020 — Reinforcement Learning, Conestoga College (2026)
+# ─────────────────────────────────────────────────────────────────────────────
+
+# ── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+*.spec
+
+# ── Virtual environments ──────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+.env
+
+# ── Jupyter Notebook ─────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── Pytest / coverage ─────────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+
+# ── OS generated ─────────────────────────────────────────────────────────────
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Thumbs.db:encdata
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# ── IDEs & editors ────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ── Logs & temp files ─────────────────────────────────────────────────────────
+*.log
+*.tmp
+*.bak
+*.swp
+
+# ── Compiled / generated outputs (keep source, not build artefacts) ───────────
+*.pyc
+*.pyd
+
+# ── Data files (large or sensitive — commit only sample CSVs intentionally) ───
+# Uncomment the lines below if you do NOT want CSVs tracked:
+# submissions_round1.csv
+# submissions_round2.csv

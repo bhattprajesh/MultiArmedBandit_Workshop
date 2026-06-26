@@ -1,0 +1,6 @@
+timestamp,name,strategy,steps,seed_env,seed_agent,drift_scale,total_reward
+2026-06-26T17:34:18.663379,Prajesh_const_alpha01_eps01,"eps=0.1, alpha=0.1",3000,2025,999,0.01,2557
+2026-06-26T17:34:18.687914,Prajesh_const_alpha05_eps01,"eps=0.1, alpha=0.5",3000,2025,999,0.01,2598
+2026-06-26T17:34:18.712596,Prajesh_const_alpha01_eps20,"eps=0.2, alpha=0.1",3000,2025,999,0.01,2542
+2026-06-26T17:34:18.736663,Prajesh_const_alpha02_eps10,"eps=0.1, alpha=0.2",3000,2025,999,0.01,2654
+2026-06-26T17:34:18.763385,Prajesh_sample_avg_baseline,"sample_avg, eps=0.1",3000,2025,999,0.01,2459

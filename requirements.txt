@@ -1,0 +1,31 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# Multi-Armed Bandit Workshop — Python Dependencies
+# Author : Prajesh Bhatt
+# Course : CSCN8020 — Reinforcement Learning, Conestoga College (June 2026)
+# Python : 3.9+
+# Install: pip install -r requirements.txt
+# ─────────────────────────────────────────────────────────────────────────────
+
+# ── Core numerical & data ────────────────────────────────────────────────────
+numpy>=1.24.0          # Arrays, RNG, vectorised ops
+pandas>=2.0.0          # DataFrames, CSV I/O, rolling windows
+
+# ── Visualisation ────────────────────────────────────────────────────────────
+matplotlib>=3.7.0      # All plots (line, bar, heatmap, subplots)
+seaborn>=0.12.0        # Optional: prettier statistical plots
+
+# ── Jupyter environment ──────────────────────────────────────────────────────
+jupyter>=1.0.0         # Meta-package: notebook + lab + console
+notebook>=7.0.0        # Classic Jupyter Notebook server
+ipykernel>=6.0.0       # IPython kernel for notebook execution
+
+# ── Notebook utilities ───────────────────────────────────────────────────────
+nbformat>=5.9.0        # Read/write .ipynb files programmatically
+nbconvert>=7.0.0       # Export notebooks to script / HTML / PDF
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Optional (uncomment to enable extended experiments)
+# ─────────────────────────────────────────────────────────────────────────────
+# scipy>=1.11.0         # Beta distribution for Thompson Sampling
+# tqdm>=4.65.0          # Progress bars for long sweeps
+# plotly>=5.15.0        # Interactive plots (UCB / Thompson visualisations)
